@@ -45,7 +45,7 @@ function reloadSaisie(nombreSaisie) {
 		saisie.question("Réessayez : ", (reponse) => {
 			reloadSaisie(reponse);
 		});
-		
+
 	} else {
 		console.log("Bravo, vous avez trouvé le nombre mystère");
 		saisie.close();
